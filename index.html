@@ -1,109 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Durasil – Mais Tempo, Mais Confiança</title>
-<style>
-  body { font-family:'Arial', sans-serif; margin:0; padding:0; background:#f0f4f8; }
-  .section { opacity:0; transform: translateY(20px); transition: all 1s ease; padding:50px 20px; }
-  .fade-in { opacity:1; transform: translateY(0); }
-  .cta-button { display:inline-block; padding:25px 55px; font-size:24px; font-weight:bold; border-radius:15px; text-decoration:none; color:white; box-shadow:0 6px 20px rgba(0,0,0,0.4); transition:all 0.3s; }
-  .cta-button:hover { transform: translateY(-5px); box-shadow:0 10px 25px rgba(0,0,0,0.5); }
-  .card { background:white; padding:25px; border-radius:15px; box-shadow:0 6px 20px rgba(0,0,0,0.15); text-align:center; transition: transform 0.3s, box-shadow 0.3s; }
-  .card:hover { transform:translateY(-8px); box-shadow:0 10px 25px rgba(0,0,0,0.3); }
-  .grid { display:grid; gap:25px; }
-  @media(min-width: 600px){ .grid-cols-2 { grid-template-columns:repeat(2,1fr); } .grid-cols-3 { grid-template-columns:repeat(3,1fr); } .grid-cols-4 { grid-template-columns:repeat(4,1fr); } }
-  .stock-alert { color:red; font-weight:bold; font-size:20px; margin:15px 0; }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Durasil – Mais Controle e Confiança</title>
+
+  <!-- Google Ads Tag -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17577906107"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'AW-17577906107');
+  </script>
+
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f4f4f4; }
+    .container { max-width: 700px; margin: 0 auto; padding: 20px; background:white; border-radius:10px; text-align:center; }
+    h1 { color:#0077b6; }
+    p { font-size:16px; margin:10px 0; }
+    .cta { display:inline-block; margin:10px; padding:15px 30px; background:#0077b6; color:white; font-size:16px; font-weight:bold; border-radius:10px; text-decoration:none; cursor:pointer; }
+    .cta:hover { background:#023e8a; }
+  </style>
 </head>
 <body>
 
-<!-- Cabeçalho -->
-<section class="section" style="text-align:center; background:linear-gradient(90deg,#ff6b00,#ff9100); color:white;" id="header">
-  <h1 style="font-size:38px; margin:0; line-height:1.2;">Durasil Sérum – Mais Tempo, Mais Confiança</h1>
-  <p style="font-size:22px; margin:20px 0;">Solução natural e segura para controlar a ejaculação precoce e melhorar seu desempenho</p>
-  <a href="https://app.monetizze.com.br/r/ABV25549695" target="_blank" class="cta-button" style="background:linear-gradient(90deg,#0077b6,#00a1ff);">
-    👉 Quero Garantir Meu Durasil Agora
-  </a>
-  <div id="stock" class="stock-alert">⚠️ Apenas <span id="stock-count">12</span> unidades restantes!</div>
-  <div style="margin-top:40px;">
-    <img src="https://source.unsplash.com/600x300/?couple,man" alt="Durasil casal" style="border-radius:15px; max-width:100%; height:auto;">
+  <div class="container">
+    <h1>Durasil – Mais Controle e Confiança</h1>
+    <p>Melhore seu desempenho masculino de forma natural e discreta. Resultados rápidos e eficazes!</p>
+
+    <!-- Botão 1 -->
+    <a href="https://app.monetizze.com.br/r/ABV25549695" target="_blank"
+       onclick="gtag('event', 'conversion', {'send_to': 'AW-17577906107'});"
+       class="cta">Comprar Durasil</a>
+
+    <!-- Botão 2 -->
+    <a href="https://app.monetizze.com.br/r/ABV25549695" target="_blank"
+       onclick="gtag('event', 'conversion', {'send_to': 'AW-17577906107'});"
+       class="cta">Garanta o Seu Agora</a>
+
+    <!-- Botão 3 -->
+    <a href="https://app.monetizze.com.br/r/ABV25549695" target="_blank"
+       onclick="gtag('event', 'conversion', {'send_to': 'AW-17577906107'});"
+       class="cta">Quero Durasil</a>
+
+    <p>Entrega discreta, rápida e segura. Produto 100% natural.</p>
   </div>
-</section>
-
-<!-- Benefícios -->
-<section class="section" style="max-width:950px; margin:auto;" id="benefits">
-  <h2 style="text-align:center; font-size:30px; margin-bottom:40px; color:#ff6b00;">Benefícios do Durasil</h2>
-  <div class="grid grid-cols-4">
-    <div class="card">✅ Mais tempo de prazer na relação</div>
-    <div class="card">✅ Fórmula natural e segura</div>
-    <div class="card">✅ Aplicação simples e discreta</div>
-    <div class="card">✅ Entrega rápida e discreta</div>
-  </div>
-  <div style="text-align:center; margin-top:35px;">
-    <a href="https://app.monetizze.com.br/r/ABV25549695" target="_blank" class="cta-button" style="background:linear-gradient(90deg,#0077b6,#00a1ff);">
-      👉 Quero Garantir Meu Durasil Agora
-    </a>
-  </div>
-</section>
-
-<!-- Depoimentos -->
-<section class="section" style="background:#ffe5d9;" id="testimonials">
-  <h2 style="text-align:center; font-size:30px; margin-bottom:40px; color:#ff6b00;">O que dizem os clientes</h2>
-  <div class="grid grid-cols-3" style="max-width:950px; margin:auto;">
-    <div class="card">“Nunca imaginei que poderia durar mais. O Durasil mudou minha vida!” — Carlos, 34</div>
-    <div class="card">“Aplicação prática e resultado perceptível. Recomendo!” — João, 41</div>
-    <div class="card">“Voltei a ter confiança e controle. Excelente produto.” — Rafael, 29</div>
-  </div>
-</section>
-
-<!-- O que é o Durasil -->
-<section class="section" style="max-width:900px; margin:auto; text-align:center;" id="about">
-  <h2 style="font-size:30px; margin-bottom:25px; color:#0077b6;">O que é o Durasil?</h2>
-  <p style="font-size:18px; line-height:1.6; margin-bottom:30px;">Durasil é um sérum íntimo desenvolvido para homens que desejam mais controle e confiança durante a relação. Com ingredientes naturais e aplicação externa, ajuda a combater a ejaculação precoce sem causar efeitos colaterais. Resultados podem variar.</p>
-  <img src="https://source.unsplash.com/500x250/?health,man" alt="Durasil benefícios" style="border-radius:15px; max-width:100%; height:auto; margin-bottom:30px;">
-  <a href="https://app.monetizze.com.br/r/ABV25549695" target="_blank" class="cta-button" style="background:linear-gradient(90deg,#ff6b00,#ff9100);">
-    👉 Quero Garantir Meu Durasil Agora
-  </a>
-</section>
-
-<!-- Garantia / Aviso legal -->
-<section class="section" style="background:white; text-align:center; padding:35px 20px; font-size:16px;">
-  ✔ Compra segura, entrega discreta<br>
-  ✔ Produto para maiores de 18 anos<br>
-  ✔ Resultados podem variar
-</section>
-
-<!-- Rodapé -->
-<footer class="section" style="text-align:center; font-size:12px; color:#555; padding:20px;">
-  © 2025 - Página informativa sobre Durasil. Este site não substitui aconselhamento médico.<br>
-  <a href="#" style="color:#ff6b00; text-decoration:none;">Política de Privacidade</a> | <a href="#" style="color:#ff6b00; text-decoration:none;">Termos de Uso</a>
-</footer>
-
-<script>
-  // Fade-in ao rolar
-  const sections = document.querySelectorAll('.section');
-  window.addEventListener('scroll', () => {
-    sections.forEach(section => {
-      const rect = section.getBoundingClientRect();
-      if(rect.top < window.innerHeight - 100){
-        section.classList.add('fade-in');
-      }
-    });
-  });
-  window.addEventListener('load', ()=>{ sections[0].classList.add('fade-in'); });
-
-  // Contador de estoque dinâmico
-  let stockCount = 12; // inicial
-  const stockElement = document.getElementById('stock-count');
-  setInterval(()=>{
-    if(stockCount > 0){
-      stockCount--;
-      stockElement.textContent = stockCount;
-    }
-  }, 15000); // diminui 1 unidade a cada 15 segundos
-</script>
 
 </body>
 </html>
